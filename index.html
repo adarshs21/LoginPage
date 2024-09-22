@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo"> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Process</a></li>
+                <li><a href="#">Timeline</a></li>
+                <li><a href="#">Perks</a></li>
+                <li><a href="#">Explore Domains</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <div class="register-btn">
+                <button>Register</button>
+            </div>
+        </nav>
+    </header>
+    <section class="login-section">
+        <div><img src="illu.svg" class="bg"></div>
+        <div class="login-form">
+            <h1>Welcome back!!</h1>
+            <h2>LOG IN</h2>
+            <p>Haven't registered yet? <a href="#">Register</a></p>
+            
+            <form>
+                <input type="email" placeholder="E - mail">
+                <input type="password" placeholder="Password">
+                <span class="toggle-password" onclick="toggleP()"></span>
+                <a href="#">Forgot Password?</a>
+                <div class="form-actions">
+                    <button type="button" class="back-btn">← Back</button>
+                    <button type="submit" class="login-btn">Log In →</button>
+                </div>
+       </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="logo.png" alt="Logo" class="footer-logo">
+                <p>A event organised by Zairza for the welfare of budding talented<br> software engineers, hardware engineers and designers</p>
+            </div>
+            <div class="footer-right">
+                <a href="#">Youtube</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
